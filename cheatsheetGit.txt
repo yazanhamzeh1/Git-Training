@@ -1,0 +1,6 @@
+Git cheatsheet
+"git init": create .git folder
+ git config --global user.name "[name]":Sets the name you want attached to your commit transactions
+git config --global user.email "[email address]": Sets the email you want attached to your commit transactions
+git config -h : get help on onfig
+git init : This creates a new subdirectory named .git that contains all necessary repository files 

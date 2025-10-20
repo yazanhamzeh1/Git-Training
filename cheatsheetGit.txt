@@ -6,4 +6,7 @@ git config -h : get help on onfig
 git init : This creates a new subdirectory named .git that contains all necessary repository files 
 git clone https://github.com/libgit2/libgit2: clones libgit2
 git clone https://github.com/libgit2/libgit2 mylibgit clones libgit2 to directory mylibgit
+git add <files>: to stage files
+git commit -m "something": to commit staged files
+git restore --staged <file> : to unstage
 

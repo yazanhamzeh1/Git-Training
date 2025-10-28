@@ -9,4 +9,18 @@ git clone https://github.com/libgit2/libgit2 mylibgit clones libgit2 to director
 git add <files>: to stage files
 git commit -m "something": to commit staged files
 git restore --staged <file> : to unstage
+to push local repo to remote:
+1. create empty repo on the server
+2. git remote add origin <URL of new repo>
+3. git branch -M main
+4. git push -u origin main
+
+git diff: to see what is still unstaged
+git diff --cached : to see what you’ve staged so far (--staged and --cached are synonyms)
+rm <file-name>: deletes file from working directory
+git rm <file-name> : after applying rm <file-name>, use this to remove deleted file from 
+                     staging area and stop tracking it.
+git restore <file-name> discard chanages in the uncommitted file, returning it to how it 
+	was in the last commit
+git rm --cached <file-name>: remove file from tracking but keep in in working directory. does not change file content
 
